@@ -8,6 +8,19 @@ namespace StanfordAlgoPart_I
 {
     public class MergeSort
     {
+
+        public static int[] Sort(int[] array)
+        {
+            if (array.Length <= 1)
+                return array;
+
+            var size = array.Length;
+
+            var firstHalf = Sort(array.Take(size / 2).ToArray());
+            var secondHalf = Sort(array.Skip(size / 2).ToArray());
+            return Merge(firstHalf, secondHalf);
+        }
+
         public static int [] Merge(int [] firstHalf, int [] secondHalf)
         {
             if (firstHalf == null && secondHalf == null)
