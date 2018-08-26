@@ -9,7 +9,7 @@ namespace StanfordAlgoPart_I
     public class MergeSort
     {
 
-        public static int[] Sort(int[] array)
+        public int[] Sort(int[] array)
         {
             if (array.Length <= 1)
                 return array;
@@ -21,7 +21,7 @@ namespace StanfordAlgoPart_I
             return Merge(firstHalf, secondHalf);
         }
 
-        public static int [] Merge(int [] firstHalf, int [] secondHalf)
+        public int [] Merge(int [] firstHalf, int [] secondHalf)
         {
             if (firstHalf == null && secondHalf == null)
                 return null;

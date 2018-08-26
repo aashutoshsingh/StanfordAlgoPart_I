@@ -31,7 +31,8 @@ namespace StanfordAlgoPart_I.Tests
 
         private void AssertSort(int[] inputArray, int[] expectedOutput)
         {
-            var sortedArray = MergeSort.Sort(inputArray);
+            MergeSort mergeSort = new MergeSort();
+            var sortedArray = mergeSort.Sort(inputArray);
             Assert.IsTrue(sortedArray.SequenceEqual(expectedOutput));
         }
 
@@ -61,7 +62,8 @@ namespace StanfordAlgoPart_I.Tests
 
         private void AssetMerge(int[] firstHalf, int[] secondHalf, int[] expectedMergeArray)
         {
-            var outputArray = MergeSort.Merge(firstHalf, secondHalf);
+            MergeSort mergeSort = new MergeSort();
+            var outputArray = mergeSort.Merge(firstHalf, secondHalf);
             Assert.IsTrue(outputArray.SequenceEqual(expectedMergeArray));
         }
     }
