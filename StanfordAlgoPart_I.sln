@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StanfordAlgoPart_I", "StanfordAlgoPart_I\StanfordAlgoPart_I.csproj", "{9EFA8101-A43B-4A57-8F14-30F9378D2CDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StanfordAlgoPart_ITests", "StanfordAlgoPart_ITests\StanfordAlgoPart_ITests.csproj", "{92C5C709-1AD3-429F-A2F6-3218919E34E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9EFA8101-A43B-4A57-8F14-30F9378D2CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EFA8101-A43B-4A57-8F14-30F9378D2CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EFA8101-A43B-4A57-8F14-30F9378D2CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C5C709-1AD3-429F-A2F6-3218919E34E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C5C709-1AD3-429F-A2F6-3218919E34E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C5C709-1AD3-429F-A2F6-3218919E34E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C5C709-1AD3-429F-A2F6-3218919E34E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
