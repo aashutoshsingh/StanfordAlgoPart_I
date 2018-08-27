@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>StanfordAlgoPart_I</RootNamespace>
     <AssemblyName>StanfordAlgoPart_I</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClosetPair.cs" />
     <Compile Include="CountingInversion.cs" />
     <Compile Include="MergeSort.cs" />
     <Compile Include="Program.cs" />
