@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClosetPair.cs" />
-    <Compile Include="CountingInversion.cs" />
-    <Compile Include="MergeSort.cs" />
+    <Compile Include="DivideAndConquer\ClosetPair.cs" />
+    <Compile Include="DivideAndConquer\CountingInversion.cs" />
+    <Compile Include="DivideAndConquer\MergeSort.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,5 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
