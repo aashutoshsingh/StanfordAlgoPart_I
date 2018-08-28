@@ -46,6 +46,7 @@
     <Compile Include="ClosetPair.cs" />
     <Compile Include="CountingInversion.cs" />
     <Compile Include="MergeSort.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
