@@ -56,9 +56,10 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="ClosetPairTests.cs" />
-    <Compile Include="CountingInversionTests.cs" />
-    <Compile Include="MergeSortTests.cs" />
+    <Compile Include="DivideAndConquer\ClosetPairTests.cs" />
+    <Compile Include="DivideAndConquer\CountingInversionTests.cs" />
+    <Compile Include="DivideAndConquer\QuickSortTests.cs" />
+    <Compile Include="DivideAndConquer\MergeSortTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
