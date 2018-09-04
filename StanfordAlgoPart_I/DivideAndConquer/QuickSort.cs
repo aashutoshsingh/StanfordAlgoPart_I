@@ -9,6 +9,27 @@ namespace StanfordAlgoPart_I.DivideAndConquer
     public class QuickSort
     {
 
+        public void Sort(int[] array, int startIndex, int endIndex)
+        {
+            if(endIndex - startIndex < 1)
+                return;
+
+            int pivotElementPos = ChoosePivot(startIndex, endIndex);
+            SwapArrayElement(array, pivotElementPos, startIndex);
+
+            int pos = Partition(array, startIndex, endIndex);
+
+            Sort(array, startIndex, pos-1);
+            Sort(array, Math.Min(pos + 1, array.Length-1), array.Length-1);
+        }
+
+
+        public int ChoosePivot(int startIndex, int endIndex)
+        {
+            //implement random selection
+            return startIndex;
+        }
+
         /// <summary>
         /// this function will place the start index element of array at 
         /// correct position of array i.e. all the elements to left should be smaller and all the elements

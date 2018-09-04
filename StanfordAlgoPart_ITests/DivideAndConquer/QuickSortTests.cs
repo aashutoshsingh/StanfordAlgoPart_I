@@ -12,6 +12,37 @@ namespace StanfordAlgoPart_I.DivideAndConquer.Tests
     public class QuickSortTests
     {
         [TestMethod()]
+        public void QuickSortTest()
+        {
+            AssertQuickSort(new int[] { 4, 3 }, new int[] { 3, 4 });
+        }
+
+        [TestMethod()]
+        public void QuickSortTest_1()
+        {
+            AssertQuickSort(new int[] { 3 }, new int[] { 3 });
+        }
+
+        [TestMethod()]
+        public void QuickSortTest_2()
+        {
+            AssertQuickSort(new int[] { 3, 1, 2 }, new int[] { 1, 2, 3 });
+        }
+
+        [TestMethod()]
+        public void QuickSortTest_3()
+        {
+            AssertQuickSort(new int[] { 3, 8, 2, 5, 1, 4, 7, 6 }, new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
+        }
+
+        private void AssertQuickSort(int[] inputArray, int[] expectedOutput)
+        {
+            QuickSort quickSort = new QuickSort();
+            quickSort.Sort(inputArray, 0, inputArray.Length-1);
+            Assert.IsTrue(inputArray.SequenceEqual(expectedOutput));
+        }
+
+        [TestMethod()]
         public void PartitionTest()
         {
             var array = new int[] { 3, 8, 2, 5, 1, 4, 7, 6 };
