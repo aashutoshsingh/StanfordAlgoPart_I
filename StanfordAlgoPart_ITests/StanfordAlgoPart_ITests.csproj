@@ -60,6 +60,7 @@
     <Compile Include="DivideAndConquer\CountingInversionTests.cs" />
     <Compile Include="DivideAndConquer\QuickSortTests.cs" />
     <Compile Include="DivideAndConquer\MergeSortTests.cs" />
+    <Compile Include="DivideAndConquer\RandomizeSelectionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
